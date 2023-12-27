@@ -11,7 +11,7 @@ const News = () => {
   // Fetch top headlines on component mount
   useEffect(() => {
     const fetchTopHeadlines = async () => {
-      const apiKey = "fc586f234d674d98ba909990f86e1c9a"; // Replace with your actual NewsAPI key
+      const apiKey = "ae71668dd4724e42aff4a0ffc9752b3f";
       try {
         const response = await axios.get(
           `https://newsapi.org/v2/top-headlines?country=us&language=en&apiKey=${apiKey}`
