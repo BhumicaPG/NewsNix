@@ -156,9 +156,8 @@ class MainLayout extends React.Component {
                   onSearch={this.handleSearch}
                   style={{
                     width: "100%", // Set width to 100% to make it responsive
-                    marginLeft: -1250,
                     maxWidth: "200px", // Set a maximum width if needed
-                    margin: "0 auto", // Center the search bar
+                    marginRight: "60px",
                     marginBottom: "16px", // Add bottom margin for spacing
                     borderRadius: "10px", // Add border-radius for rounded corners
                     border: "1px solid #d9d9d9", // Add border color
